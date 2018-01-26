@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<PreferenceCategory
+		android:title="Options (Reload Instagram To Take Effect)">
+		<CheckBoxPreference
+			android:key="key_disable_search"
+			android:title="Disable Search Button"
+			defaultValue="true"
+		/>
+		<CheckBoxPreference
+			android:key="key_disable_search_long"
+			android:title="Disable Search Button (Long-Click)"
+		/>
+		<CheckBoxPreference
+			android:key="key_hide_button"
+			android:title="Hide Search Button Entirely"
+		/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="Response">
+		<SwitchPreference
+			android:key="key_show_toast"
+			android:title="Show 'Disabled' Toast"
+			android:summary="When Clicked, Show Button Was Disabled"
+			defaultValue="true"
+		/>
+	</PreferenceCategory>
+
+</PreferenceScreen>

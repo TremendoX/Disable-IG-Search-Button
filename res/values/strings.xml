@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Disable IG Search Button</string>
+	<string name="xposed_description">Xposed Module to Toggle Search Button for Instagram</string>
+
+</resources>
