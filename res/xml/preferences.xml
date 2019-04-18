@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<PreferenceCategory
-		android:title="Options">
+		android:title="Click Options (Reload Instagram To Take Effect)">
 		<CheckBoxPreference
 			android:key="key_disable_search"
 			android:title="Disable Search Button"
@@ -12,6 +12,9 @@
 			android:key="key_disable_search_long"
 			android:title="Disable Search Button (Long-Click)"
 		/>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Visibility">
 		<CheckBoxPreference
 			android:key="key_hide_button"
 			android:title="Hide Search Button Entirely"
