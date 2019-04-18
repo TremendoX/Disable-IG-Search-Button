@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-	
+
 	<PreferenceCategory
-		android:title="Options (Reload Instagram To Take Effect)">
+		android:title="Options">
 		<CheckBoxPreference
 			android:key="key_disable_search"
 			android:title="Disable Search Button"
@@ -17,13 +17,13 @@
 			android:title="Hide Search Button Entirely"
 		/>
 	</PreferenceCategory>
-	
+
 	<PreferenceCategory
 		android:title="Response">
 		<SwitchPreference
 			android:key="key_show_toast"
 			android:title="Show 'Disabled' Toast"
-			android:summary="When Clicked, Show Button Was Disabled"
+			android:summary="Button Shows 'Disabled' Message When Clicked"
 			defaultValue="true"
 		/>
 	</PreferenceCategory>
